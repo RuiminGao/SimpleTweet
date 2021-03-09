@@ -2,8 +2,14 @@ package com.codepath.apps.restclienttemplate.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
+import javax.annotation.ParametersAreNonnullByDefault;
+
+@Parcel
 public class User {
+
+    public User() {}
 
     public String name;
     public String screenName;
