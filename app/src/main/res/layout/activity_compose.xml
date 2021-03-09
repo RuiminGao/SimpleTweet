@@ -27,4 +27,17 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:text="@string/tweet"/>
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnTweet"
+        android:layout_alignBottom="@+id/btnTweet"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/btnTweet"
+        android:gravity="center"
+        android:text="TextView" />
 </RelativeLayout>
